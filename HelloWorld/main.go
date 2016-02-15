@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+func max(x int) int {
+
+	return 42 + x
+
+}
 func main() {
-	fmt.Println("Helloworld!")
+	max := max(8)
+	fmt.Println(max)
+
 }
